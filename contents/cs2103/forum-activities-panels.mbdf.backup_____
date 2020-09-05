@@ -1,7 +1,7 @@
-%%[This page was last updated on Sep 02 2020]%%
+%%[This page was last updated on Sep 04 2020]%%
 
 
-<panel type="info" header="### MASAGCA ERIS JACEY DUMASIS `@erisjacey` (21 contributions)"  collapsed>
+<panel type="info" header="### MASAGCA ERIS JACEY DUMASIS `@erisjacey` (22 contributions)"  collapsed>
 
 
 <panel  header="**1. :fas-info-circle: Keep part of code that prints output in terminal after JavaFX?**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/136" expanded>
@@ -218,10 +218,15 @@ If not, try implementing one.
 I had a similar issue and I managed to solve it by implementing one.
 </panel>
 
+<panel  header="**22 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/166#issuecomment-686495621" expanded>
+
+#160 
+</panel>
+
 </panel>
 
 
-<panel type="info" header="### LIM MING CHONG `@qwoprocks` (17 contributions)"  collapsed>
+<panel type="info" header="### LIM MING CHONG `@qwoprocks` (18 contributions)"  collapsed>
 
 
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/36#issuecomment-677359876" expanded>
@@ -328,6 +333,230 @@ I think you can refer to issue #125
 Maybe you can take a look at the stack trace? The java.lang.XXXException tab usually doesn't give any information, you can try clicking on the Launcher.main() lines to see if there are more details on why these exceptions were thrown. 
 
 Usually its due to some kind of uninitialized fields or a naming issue which leads to FXML and your java code not meshing together (or maybe you forgot to set the controller, etc.)
+</panel>
+
+<panel  header="**18 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/169#issuecomment-686863063" expanded>
+
+There has been a similar discussion in issue #100, please refer to the reply by Prof
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### HUANG CHENGYU `@HCY123902` (14 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Question about the displaying of check and cross**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/171" expanded>
+
+Hello, I have some issues regarding the displaying of check and cross in the individual project.
+When I wrote
+
+System.out.println("\u2713");
+
+or 
+
+System.out.println("\u2718");
+
+The question mark will be displayed instead of the check and cross. 
+This is quite strange because I did not have this issue previously and it appeared quite recently. Is it related to the configuration of the platform or is it related to something else?
+Can I ask if anyone knows how to handle this issue? 
+</panel>
+
+<panel  header="**2. :fas-info-circle: Question about the individual project**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/16" expanded>
+
+Hello, I want to ask several questions regarding the project. 
+
+Firstly, do we need to keep the name of the chatbot, the greeting message, the format of the command, indentation, and response information exactly the same as the ones shown in the example? For example, can I show a different greeting message when the program runs? If a difference between the individual project and the example is allowed, will this difference affect the grading of the project?
+
+Secondly, will the grading be based on the tags, or the commits in master branch, or both?
+
+Thirdly, does the order of commits matter? For example, if I push the commit for level 6 first, and then I push the commit for level 5, will this cause any issues in the grading process?
+
+Sorry but I seem to have quite a few questions to ask. I hope this will not disturb you.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/16#issuecomment-687537036" expanded>
+
+Thank you professor for your clarification.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-687538035" expanded>
+
+I may need to change the background a bit and replace the image.
+![example](https://user-images.githubusercontent.com/54735123/92296526-30a55400-ef68-11ea-856f-de886b1bb00d.jpg)
+
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/163#issuecomment-687539549" expanded>
+
+Hello professor, I am wondering if there is a bidirectional navigability pointing from one class to the same class, will the following class be a valid representation of this bidirectional navigability? Will this class declaration lead to single direction navigability or bidirectional navigability?
+
+class Animal { 
+&nbsp;&nbsp;&nbsp;&nbsp;Animal anotherAnimal;
+}
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/170#issuecomment-687539939" expanded>
+
+Thanks a lot for the tip. I think this will be quite helpful especially in terms of improving the code quality.
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/130#issuecomment-687540333" expanded>
+
+Yeah I think one way to do it is to just clone the address book repository to the local computer, move the config directory to the individual project root directory, and change the version of the checkstyle in build gradle to 8.32. 
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/44#issuecomment-687542628" expanded>
+
+Yeah I do think it will generate the conflict when the marker is added manually. By the way, git also has a default merge tool that can help to resolve merge conflict. To resolve a merge conflict, type
+
+git mergetool 
+
+on the branch with the merge conflict to use the tool.
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/86#issuecomment-687543049" expanded>
+
+Maybe you can try to pull by allowing unrelated histories. Additionally, I remember that the name of the local branch needs to correspond to the name of the remote branch.
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/138#issuecomment-687543691" expanded>
+
+Can I ask if it is necessary to commit the new jar file this week to the remote repository?  
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/114#issuecomment-687544201" expanded>
+
+Maybe you can change the path of the class in the runtest file a bit. It is necessary to include the package name in the class name in order to search for the class.
+</panel>
+
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/80#issuecomment-687544541" expanded>
+
+Hello, I had a similar issue. Have you solved the problem?
+</panel>
+
+<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/81#issuecomment-687544839" expanded>
+
+Thanks a lot. I think it is quite helpful especially in terms of arranging the order of tags in the remote repository.
+</panel>
+
+<panel  header="**14 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/171#issuecomment-687572388" expanded>
+
+Thanks for the reply. Let me check.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### MARCUS TAN WEI `@MarcusTw` (13 contributions)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/5#issuecomment-674363261" expanded>
+
+I opened up EXPECTED.TXT and edit manually, finally it worked! Thanks for the headsup.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/4#issuecomment-674616304" expanded>
+
+> I had a lot of trouble with getting my `.bat` file to work as well, and this is what worked for me:
+> 
+> If you're like me and have a very long and convoluted file path (with lots of whitespaces) to your source files, you can try using the following method:
+> 
+> `SET MY_PATH=<your_really_long_path_here>`
+> 
+> Hereafter you can refer to your path by simply calling `%MY_PATH%` wherever you need it.
+> 
+> Here's an example of what I'm talking about:
+> 
+> ![image](https://user-images.githubusercontent.com/21262729/90301796-9015c400-ded4-11ea-9932-0b159d214fe8.png)
+> 
+> Let me know if this helps :)
+
+Wow Eris it worked well! Thanks!
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/6#issuecomment-674844248" expanded>
+
+> Do you have more than one java file? The above suggestion changing `Duke.java` to `*.java` works for me.
+
+Thanks!! Nesting all other classes in Duke works too, however, it is a rather bad practice.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/16#issuecomment-674845537" expanded>
+
+Hi Prof, just a quick question: Does changing the class file (from "Duke.java" to "MyChosenName.java") affects the scripting?
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/20#issuecomment-675225939" expanded>
+
+Hi, can't view your image  Try restarting your IntelliJ client after changing your environment variables.
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/24#issuecomment-675492110" expanded>
+
+It seems that for case 1, throwing exceptions in constructors isn't a bad practice. In a way, throwing an error as early as possible can be useful as culprit is in the callstack and provide and explanation of the reason (prefer compile-time error to runtime error).
+
+https://stackoverflow.com/questions/6086334/is-it-good-practice-to-make-the-constructor-throw-an-exception
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/82#issuecomment-680946302" expanded>
+
+Open up a Linux terminal, navigate to your ip local directory. Navigate to your src/main/java.
+Enter the commands: 
+//check if git remote found
+`git remote -v`
+
+//remove Command directory
+`git rm -r Command`
+
+`git commit -m *Remove Command directory*`
+
+`git push origin master`
+
+//check if removed
+`ls -l `
+
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/77#issuecomment-681308688" expanded>
+
+I'm not sure if this is the right way but I fixed it by making sure that my code on github is the most updated version, then I used IntelliJ to "get from git version control" again. Then open up SouceTree and locate the new local repo I cloned. Go to remotes -> branches -> check out on all the branches and they will show up in the "branches" tab of your local repo, and I think it will show up when you click on push.
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/133#issuecomment-683815835" expanded>
+
+If I'm not wrong, the UI do not display each character in equal spacing, so a '-' and '_' will take up more space than '|'.
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-684845664" expanded>
+
+> Actually spent too much time on this
+> 
+> ![image](https://user-images.githubusercontent.com/1027621/91854593-88a53780-ec96-11ea-81a1-5d3257dfb8c0.png)
+
+Oh my! Kang Liang, may I ask how do you add backgrounds?
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/160#issuecomment-685370620" expanded>
+
+> Do you have a Duke constructor that takes in 0 parameters? (i.e. `new Duke()`)
+> 
+> If not, try implementing one.
+> 
+> I had a similar issue and I managed to solve it by implementing one.
+
+Thank you @erisjacey !
+</panel>
+
+<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/155#issuecomment-685372460" expanded>
+
+My guess would be close project and open again? Also, try rebuilding your build.gradle 
+</panel>
+
+<panel  header="**13 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-687572601" expanded>
+
+![image](https://user-images.githubusercontent.com/60913700/92301363-da4f0a00-ef95-11ea-98b5-b1d9398136b1.png)
+Added background image and edited a simple dialog box.
 </panel>
 
 </panel>
@@ -597,114 +826,6 @@ i now just used the actual symbol instead of \u2713. Tried to add set JAVA_TOOL_
 <panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/132#issuecomment-683741703" expanded>
 
 @qwoprocks oh my bad i sint see that issue thanks!
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### MARCUS TAN WEI `@MarcusTw` (12 contributions)"  collapsed>
-
-
-<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/5#issuecomment-674363261" expanded>
-
-I opened up EXPECTED.TXT and edit manually, finally it worked! Thanks for the headsup.
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/4#issuecomment-674616304" expanded>
-
-> I had a lot of trouble with getting my `.bat` file to work as well, and this is what worked for me:
-> 
-> If you're like me and have a very long and convoluted file path (with lots of whitespaces) to your source files, you can try using the following method:
-> 
-> `SET MY_PATH=<your_really_long_path_here>`
-> 
-> Hereafter you can refer to your path by simply calling `%MY_PATH%` wherever you need it.
-> 
-> Here's an example of what I'm talking about:
-> 
-> ![image](https://user-images.githubusercontent.com/21262729/90301796-9015c400-ded4-11ea-9932-0b159d214fe8.png)
-> 
-> Let me know if this helps :)
-
-Wow Eris it worked well! Thanks!
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/6#issuecomment-674844248" expanded>
-
-> Do you have more than one java file? The above suggestion changing `Duke.java` to `*.java` works for me.
-
-Thanks!! Nesting all other classes in Duke works too, however, it is a rather bad practice.
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/16#issuecomment-674845537" expanded>
-
-Hi Prof, just a quick question: Does changing the class file (from "Duke.java" to "MyChosenName.java") affects the scripting?
-</panel>
-
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/20#issuecomment-675225939" expanded>
-
-Hi, can't view your image  Try restarting your IntelliJ client after changing your environment variables.
-</panel>
-
-<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/24#issuecomment-675492110" expanded>
-
-It seems that for case 1, throwing exceptions in constructors isn't a bad practice. In a way, throwing an error as early as possible can be useful as culprit is in the callstack and provide and explanation of the reason (prefer compile-time error to runtime error).
-
-https://stackoverflow.com/questions/6086334/is-it-good-practice-to-make-the-constructor-throw-an-exception
-</panel>
-
-<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/82#issuecomment-680946302" expanded>
-
-Open up a Linux terminal, navigate to your ip local directory. Navigate to your src/main/java.
-Enter the commands: 
-//check if git remote found
-`git remote -v`
-
-//remove Command directory
-`git rm -r Command`
-
-`git commit -m *Remove Command directory*`
-
-`git push origin master`
-
-//check if removed
-`ls -l `
-
-</panel>
-
-<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/77#issuecomment-681308688" expanded>
-
-I'm not sure if this is the right way but I fixed it by making sure that my code on github is the most updated version, then I used IntelliJ to "get from git version control" again. Then open up SouceTree and locate the new local repo I cloned. Go to remotes -> branches -> check out on all the branches and they will show up in the "branches" tab of your local repo, and I think it will show up when you click on push.
-</panel>
-
-<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/133#issuecomment-683815835" expanded>
-
-If I'm not wrong, the UI do not display each character in equal spacing, so a '-' and '_' will take up more space than '|'.
-</panel>
-
-<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-684845664" expanded>
-
-> Actually spent too much time on this
-> 
-> ![image](https://user-images.githubusercontent.com/1027621/91854593-88a53780-ec96-11ea-81a1-5d3257dfb8c0.png)
-
-Oh my! Kang Liang, may I ask how do you add backgrounds?
-</panel>
-
-<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/160#issuecomment-685370620" expanded>
-
-> Do you have a Duke constructor that takes in 0 parameters? (i.e. `new Duke()`)
-> 
-> If not, try implementing one.
-> 
-> I had a similar issue and I managed to solve it by implementing one.
-
-Thank you @erisjacey !
-</panel>
-
-<panel  header="**12 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/155#issuecomment-685372460" expanded>
-
-My guess would be close project and open again? Also, try rebuilding your build.gradle 
 </panel>
 
 </panel>
@@ -1257,6 +1378,101 @@ I found the problem and solved it. Turns out, somehow I accidentally deleted the
 </panel>
 
 
+<panel type="info" header="### HUYNH THAI DUONG `@aidoxe-123` (11 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Failed to clean up stale outputs when running GUI**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/126" expanded>
+
+When I tried to build the GUI, I got the following error in processResources
+'''
+Failed to clean up stale outputs
+Couldn't delete [path to my directory]\build\resources]\main\images\DaDuke.png
+'''
+Any ideas on how to fix this?
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: Plugin not found when building gradle**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/102" expanded>
+
+When I try to build the gradle project, I got this error:
+`Plugin [id: 'com.github.johnrengelman.shadow', version: '5.1.0'] was not found in any of the following sources:`
+![image](https://user-images.githubusercontent.com/58925632/91628078-f8919480-e9ee-11ea-8e21-888cc14a1cbd.png)
+
+Anyone knows how to fix it?
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/5#issuecomment-674397916" expanded>
+
+Hi, where did you find that trouble shooting slides?
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/9#issuecomment-674763170" expanded>
+
+Both ways work, I think
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/65#issuecomment-679733546" expanded>
+
+The problem lies in the line ': String.format("%d.%s\n", i + 1, tasks.get(i).toString());' in your convertTaskListToString method.
+Since your clearly state out that the end line is \n instead of System.lineSeparator(), the correct listMessage string should be:
+'''
+String listMessage = "Here are the tasks in your list:\n" +  
+                "1.[T][" + CROSS_ICON + "] t1\n"  +
+                "2.[D][" + TICK_ICON + "] t2 (by: Aug 24 2020, 10:00)\n" +
+                "3.[D][" + CROSS_ICON + "] t3 (by: Aug 27 2020, 11:00)\n" + 
+                "4.[E][" + TICK_ICON + "] t4 (at: Aug 24 2020, 11:00)\n" + 
+                "5.[E][" + CROSS_ICON + "] t5 (at: Aug 27 2020, 12:00)";
+'''
+
+Only use 'System.lineSeparator()' to represent line breaks that use 'System.out.println()' or strings that clearly refer to 'System.lineSeparator()' themselves.
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/85#issuecomment-682302793" expanded>
+
+Is there any thing that I have to note when implementing this shutdown hook? 'cause when I try to use it,  I cannot pressing ctrl + c to terminate the program any more
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/102#issuecomment-683245491" expanded>
+
+Somehow I run this code in the terminal, then import the build.gradle again and it works
+'''
+./gradlew assembleDebug
+'''
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/95#issuecomment-683247490" expanded>
+
+> Maybe add this to your build.gradle might help
+> 
+> tasks.withType(JavaCompile) {
+> options.encoding = 'UTF-8'
+> }
+> 
+> [Source](https://www.thetopsites.net/article/58616121.shtml)
+
+This doesn't work for me
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/126#issuecomment-683551740" expanded>
+
+Got it! Thanks, mate
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/159#issuecomment-685320477" expanded>
+
+#95 
+</panel>
+
+<panel  header="**11 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-686537309" expanded>
+
+![image](https://user-images.githubusercontent.com/58925632/92129429-12d7d200-ee36-11ea-9daa-39338a27e643.png)
+
+</panel>
+
+</panel>
+
+
 <panel type="info" header="### LEE EN HAO `@LeeEnHao` (11 contributions)"  collapsed>
 
 
@@ -1615,95 +1831,6 @@ Hi, could you give more details when you say intellij cant recognize your source
 </panel>
 
 
-<panel type="info" header="### HUYNH THAI DUONG `@aidoxe-123` (10 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Failed to clean up stale outputs when running GUI**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/126" expanded>
-
-When I tried to build the GUI, I got the following error in processResources
-'''
-Failed to clean up stale outputs
-Couldn't delete [path to my directory]\build\resources]\main\images\DaDuke.png
-'''
-Any ideas on how to fix this?
-
-</panel>
-
-<panel  header="**2. :fas-info-circle: Plugin not found when building gradle**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/102" expanded>
-
-When I try to build the gradle project, I got this error:
-`Plugin [id: 'com.github.johnrengelman.shadow', version: '5.1.0'] was not found in any of the following sources:`
-![image](https://user-images.githubusercontent.com/58925632/91628078-f8919480-e9ee-11ea-8e21-888cc14a1cbd.png)
-
-Anyone knows how to fix it?
-
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/5#issuecomment-674397916" expanded>
-
-Hi, where did you find that trouble shooting slides?
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/9#issuecomment-674763170" expanded>
-
-Both ways work, I think
-</panel>
-
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/65#issuecomment-679733546" expanded>
-
-The problem lies in the line ': String.format("%d.%s\n", i + 1, tasks.get(i).toString());' in your convertTaskListToString method.
-Since your clearly state out that the end line is \n instead of System.lineSeparator(), the correct listMessage string should be:
-'''
-String listMessage = "Here are the tasks in your list:\n" +  
-                "1.[T][" + CROSS_ICON + "] t1\n"  +
-                "2.[D][" + TICK_ICON + "] t2 (by: Aug 24 2020, 10:00)\n" +
-                "3.[D][" + CROSS_ICON + "] t3 (by: Aug 27 2020, 11:00)\n" + 
-                "4.[E][" + TICK_ICON + "] t4 (at: Aug 24 2020, 11:00)\n" + 
-                "5.[E][" + CROSS_ICON + "] t5 (at: Aug 27 2020, 12:00)";
-'''
-
-Only use 'System.lineSeparator()' to represent line breaks that use 'System.out.println()' or strings that clearly refer to 'System.lineSeparator()' themselves.
-</panel>
-
-<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/85#issuecomment-682302793" expanded>
-
-Is there any thing that I have to note when implementing this shutdown hook? 'cause when I try to use it,  I cannot pressing ctrl + c to terminate the program any more
-</panel>
-
-<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/102#issuecomment-683245491" expanded>
-
-Somehow I run this code in the terminal, then import the build.gradle again and it works
-'''
-./gradlew assembleDebug
-'''
-</panel>
-
-<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/95#issuecomment-683247490" expanded>
-
-> Maybe add this to your build.gradle might help
-> 
-> tasks.withType(JavaCompile) {
-> options.encoding = 'UTF-8'
-> }
-> 
-> [Source](https://www.thetopsites.net/article/58616121.shtml)
-
-This doesn't work for me
-</panel>
-
-<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/126#issuecomment-683551740" expanded>
-
-Got it! Thanks, mate
-</panel>
-
-<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/159#issuecomment-685320477" expanded>
-
-#95 
-</panel>
-
-</panel>
-
-
 <panel type="info" header="### NOORUL AZLINA D/O H U `@itssodium` (10 contributions)"  collapsed>
 
 
@@ -1925,6 +2052,68 @@ Thanks for the help!
 > For your current solution, I believe you will be creating 2 Duke objects when u call your no-argument constructor
 
 Thanks! I am using that currently.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### WANG QIAN `@Persdre` (10 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: When you do auto tests, pay attention to the position of your cursor💡**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/26" expanded>
+
+The auto testing is so strict. As I pressed the enter key after entering all my expected output, I was stuck in testing for about half of the day. :(
+</panel>
+
+<panel  header="**2. :fas-info-circle: A quiz question: whether a class-level member can be accessed by an instance of the class**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/2" expanded>
+
+The textbook says: class-level members are to be accessed using the class name rather than an instance of the class. But a question in the quiz asks whether a class-level member can be accessed by an instance of the class. From my experience, I actually once accessed a static variable from an object. So, I don't know this question's answer :(
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/2#issuecomment-674645594" expanded>
+
+already solved! thanks!
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/26#issuecomment-675819460" expanded>
+
+You can click https://github.com/nus-cs2103-AY2021S1/forum/issues/27 for more information!
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/26#issuecomment-677708831" expanded>
+
+already be solved! 
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/56#issuecomment-680127021" expanded>
+
+To add on, 
+<img width="754" alt="Screenshot 2020-08-26 at 12 18 39 AM" src="https://user-images.githubusercontent.com/35624031/91200403-b4be3700-e731-11ea-96ff-4c90b772e837.png">
+
+</panel>
+
+<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/86#issuecomment-681852242" expanded>
+
+Yeah, you didn't give enough information... I guess the reason you can't pull/push is that the branch you click doesn't exist? Or some sync problems...
+So I suggest you fetch your code from your Github ip repository first, then try the easiest pull/push operations.
+</panel>
+
+<panel  header="**8 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-686884527" expanded>
+
+<img width="396" alt="Screenshot 2020-09-02 at 11 33 31 PM" src="https://user-images.githubusercontent.com/35624031/92197154-8ebc3380-eea3-11ea-8a53-baefabdf6b83.png">
+
+</panel>
+
+<panel  header="**9 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/168#issuecomment-686895228" expanded>
+
+<img width="551" alt="Screenshot 2020-09-04 at 12 19 53 PM" src="https://user-images.githubusercontent.com/35624031/92199165-f2952b00-eea8-11ea-948e-5d365bbf3adf.png">
+
+I think the constructor is a little from the other public methods, so I write it like this. :)
+</panel>
+
+<panel  header="**10 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/171#issuecomment-687543515" expanded>
+
+You can refer to this: https://github.com/nusCS2113-AY1920S1/forum/issues/8
 </panel>
 
 </panel>
@@ -2752,45 +2941,45 @@ If i'm not wrong, you can use sourcetree to move the tags from one commit to ano
 </panel>
 
 
-<panel type="info" header="### WANG QIAN `@Persdre` (7 contributions)"  collapsed>
+<panel type="info" header="### WANG ZHENLIN `@Criss-Wang` (6 contributions)"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: When you do auto tests, pay attention to the position of your cursor💡**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/26" expanded>
+<panel  header="**1. :fas-info-circle: Comply with coding quality question: >30 LOC**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/156" expanded>
 
-The auto testing is so strict. As I pressed the enter key after entering all my expected output, I was stuck in testing for about half of the day. :(
+Hi all, may I ask to comply with the coding quality, must the method be less than 30 lines?
+
+It appears to be a basic guideline in coding quality, but I do find some of peer's main logic for command handing >= 30 lines with a relatively decent/correct logic. Should I point the issue out? Or is it okay to have a slightly >30 lines method if the logic is sound?
+
+Thank you!
 </panel>
 
-<panel  header="**2. :fas-info-circle: A quiz question: whether a class-level member can be accessed by an instance of the class**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/2" expanded>
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/5#issuecomment-674383799" expanded>
 
-The textbook says: class-level members are to be accessed using the class name rather than an instance of the class. But a question in the quiz asks whether a class-level member can be accessed by an instance of the class. From my experience, I actually once accessed a static variable from an object. So, I don't know this question's answer :(
+Hi, may I know is this a utf-8 encoding issue actually? Stuck over here as well and not sure what's the problem. 
 </panel>
 
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/2#issuecomment-674645594" expanded>
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/5#issuecomment-674386503" expanded>
 
-already solved! thanks!
+Oh I see, thanks a lot!
 </panel>
 
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/26#issuecomment-675819460" expanded>
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/156#issuecomment-684888277" expanded>
 
-You can click https://github.com/nus-cs2103-AY2021S1/forum/issues/27 for more information!
+@li-s It's under the description in peer review task in Week 4 project.
 </panel>
 
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/26#issuecomment-677708831" expanded>
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/156#issuecomment-684976599" expanded>
 
-already be solved! 
+@damithc I see, thanks prof!
 </panel>
 
-<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/56#issuecomment-680127021" expanded>
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-687128174" expanded>
 
-To add on, 
-<img width="754" alt="Screenshot 2020-08-26 at 12 18 39 AM" src="https://user-images.githubusercontent.com/35624031/91200403-b4be3700-e731-11ea-96ff-4c90b772e837.png">
+Hmm not sure if Star War theme is allowed, but here is my try:
+![ip_snapshot](https://user-images.githubusercontent.com/48540265/92241780-622f0880-eef1-11ea-8c15-b9200dc817bb.png)
+
+
 
-</panel>
-
-<panel  header="**7 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/86#issuecomment-681852242" expanded>
-
-Yeah, you didn't give enough information... I guess the reason you can't pull/push is that the branch you click doesn't exist? Or some sync problems...
-So I suggest you fetch your code from your Github ip repository first, then try the easiest pull/push operations.
 </panel>
 
 </panel>
@@ -2952,6 +3141,99 @@ Yup I have quotation marks around them
 
 Thanks a lot!!!
 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### KOR MING SOON `@kormingsoon` (6 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: 💡iP Week 5: PR Increment Tip (PR made to nus-cs2103-AY2021S1 instead of own fork)**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/172" expanded>
+
+I noticed a (small) number of people having the issue as I had following the instructions from the Week 5. The issue being that when we followed the instructions in the for the merging of Pull Request (PR), the PR was instead made to the nus-cs2103-AY20221S1 fork instead of our own master branch.
+
+I will just do up a short guide to aid others alongside what is given in the iP instructions to aid those not as well versed with github (as I am).
+
+The assumption so far is that you are able to push the branch to your fork in github. I will continue the steps thereafter from the assumption.
+
+1. Go to your iP Repository
+
+2. Go to the branch that you want to create the PR from. (e.g click on branch-A-Lambdas)
+![image](https://user-images.githubusercontent.com/49610142/92297284-57678880-ef70-11ea-9444-3265d5c122d4.png)
+
+3. Click on the pull request once the branch page is loaded.
+![image](https://user-images.githubusercontent.com/49610142/92297295-6fd7a300-ef70-11ea-8906-de583474d1bb.png)
+
+4. What you see now is something like a configuration for the pull request.
+![image](https://user-images.githubusercontent.com/49610142/92297306-8d0c7180-ef70-11ea-9faf-0be136047e94.png)
+
+5. This is where the mistake happens for some people (notice that the merge is suggested to the base repository that is nus-cs2103-AY2021/ip). 
+![image](https://user-images.githubusercontent.com/49610142/92297321-bf1dd380-ef70-11ea-8776-59bf99713c3f.png)
+
+6. Click on the nus-cs2103-AY2021S1/ip and the pop up will appear for you to select the right ip to create the right PR. 
+![image](https://user-images.githubusercontent.com/49610142/92297339-e70d3700-ef70-11ea-9333-300bcf5e6327.png)
+
+From here you can then proceed to create the pull request, the interface thereafter from here is rather intuitive, hence, I will only cover up to this point. Feel free to ask questions if you encounter further errors! 
+</panel>
+
+<panel  header="**2. :fas-info-circle: Cannot run JavaFX**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/148" expanded>
+
+Anyone encountered this error as well?
+
+Followed the steps in the github but can't seem to run JavaFX despite setting up all the stuff.
+
+Based on what I see, my MainWindow.fxml and DialogBox.fxml cant seem to be able to access my MainWindow.java and DialogBox.java
+
+'''java
+String value = "Exception in Application start method
+Exception in thread "main" java.lang.RuntimeException: Exception in Application start method
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:973)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:198)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: Location is not set.
+	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2459)
+	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2435)
+	at duke.Main.start(Main.java:23)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:919)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$11(PlatformImpl.java:449)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$9(PlatformImpl.java:418)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:417)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:175)
+	... 1 more
+"
+'''
+
+:bulb: You can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format your text
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/148#issuecomment-684592183" expanded>
+
+Resolved it, naming issue due to Package
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/153#issuecomment-685255561" expanded>
+
+This is likely got to do with the path settings as Kang Liang, I spent a great deal of time solving it and resolved it just as how Kang Liang suggested.
+ 
+Suggestion for places to check:
+1) the .getResource( <file path> ) > mine is /view/DialogBox,fxml (or /view/MainWindow.fxml for Main.java)
+2) .getResourceAsStream("/image/<filename>.png")
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-687304375" expanded>
+
+![image](https://user-images.githubusercontent.com/49610142/92273051-45a8c580-ef1d-11ea-9c9f-365c44ae630e.png)
+
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/170#issuecomment-687545501" expanded>
+
+Thanks for the tip!!
 </panel>
 
 </panel>
@@ -3248,6 +3530,68 @@ it's ok! thanks for the help. appreciated 👍🏻
 </panel>
 
 
+<panel type="info" header="### ALVIN CHEE TECK WENG `@CodingCookieRookie` (6 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: javac not recognised as internal or external command**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/20" expanded>
+
+
+'''
+![image](https://user-images.githubusercontent.com/38324769/90466473-75e21d00-e144-11ea-8820-7698ca997788.png)
+![image](https://user-images.githubusercontent.com/38324769/90466512-9a3df980-e144-11ea-9d1f-91cc0b2d6528.png)
+
+
+Hi I changed my environment variables to 11.0 jdk bin already but it still doesn't work. May I ask what's the issue?
+
+
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/20#issuecomment-675226392" expanded>
+
+Ohh okay it works haha thanks!!! :D
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/15#issuecomment-675228602" expanded>
+
+@Elgoh Hi May I ask what's the solution? Im facing this problem too haha
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/83#issuecomment-681310178" expanded>
+
+Hi prof just a question on the preferred tagging habit, if I have changed two tags simultaneously eg. A-OOP and A-Packaging, should we delete the old tags and retag them at the one updated commit or do we just leave the old tags where they are and write out the corresponding updates in the updated commit message?
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/83#issuecomment-682121160" expanded>
+
+Noted with thanks prof! :)
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/173#issuecomment-687575489" expanded>
+
+My personal takeaway is (Do correct me if I'm wrong):    
+- We should use assertions on private methods, to check if the else/default of a conditional statement is not reached (If it is not supposed to) 
+- Generally, we should not use assertions for public methods and definitely not for plausible user input failures
+
+Found this online, hope it helps :)
+
+Where to use Assertions
+
+Arguments to private methods. Private arguments are provided by developer’s code only and developer may want to check his/her assumptions about arguments.
+Conditional cases.
+Conditions at the beginning of any method.
+
+
+Where not to use Assertions
+
+Assertions should not be used to replace error messages
+Assertions should not be used to check arguments in the public methods as they may be provided by user. Error handling should be used to handle errors provided by user.
+Assertions should not be used on command line arguments.
+</panel>
+
+</panel>
+
+
 <panel type="info" header="### YAO YUMING `@yuming7144` (6 contributions)"  collapsed>
 
 
@@ -3303,36 +3647,84 @@ Hi, gradle was build successfully after I deleted the entire directory at C:/Use
 </panel>
 
 
-<panel type="info" header="### WANG ZHENLIN `@Criss-Wang` (5 contributions)"  collapsed>
+<panel type="info" header="### TAN YU TING, GERMAINE `@g-erm` (6 contributions)"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: Comply with coding quality question: >30 LOC**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/156" expanded>
+<panel  header="**1. :fas-info-circle: Unspecified multiplicity**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/165" expanded>
 
-Hi all, may I ask to comply with the coding quality, must the method be less than 30 lines?
+Is there a default value if the multiplicity isn't specified for an association in a class diagram? Or is it just no limit which is like `*`?
+</panel>
+
+<panel  header="**2. :fas-info-circle: Fast forward merge**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/61" expanded>
+
+![image](https://user-images.githubusercontent.com/66118590/91005883-90b40600-e60a-11ea-92af-933f8231a498.png)
+I believe I made a fast forward merge for branch-Level-7 instead, by accident. Is it okay to leave it like that or is there any way to revert the merge? Thanks!
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/61#issuecomment-678919913" expanded>
+
+Ok, will take note! Thanks prof!
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/159#issuecomment-686256905" expanded>
+
+Not sure if you solved it yet but I encountered the same problem and solved it by going to `Run > Edit Configurations` and changing VM options to `-Dfile.encoding=UTF-8`
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-686317262" expanded>
+
+Found this thread really informative and useful to get ideas!! heres my updated GUI:
+![image](https://user-images.githubusercontent.com/66118590/92086088-47c73300-edfc-11ea-8bda-adbd36fe90c8.png)
+
+</panel>
+
+<panel  header="**6 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/165#issuecomment-687543763" expanded>
+
+Thank you!!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### TERENCE HO WEI YANG `@Vielheim` (5 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Unable to configure checkstyle**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/110" expanded>
+
+Hi all, does anyone know how to set up checkstyle properly?
+I'm using the default version for checkstyle defined in build.Gradle (v8.23). I downloaded the config/checkstyle folder from the addressbook repo and when I tried to configure checkstyle, I'm have to initialise config_loc and have the following error. Wasn't really shown in the tutorial so I'm not sure how to go around this.
 
-It appears to be a basic guideline in coding quality, but I do find some of peer's main logic for command handing >= 30 lines with a relatively decent/correct logic. Should I point the issue out? Or is it okay to have a slightly >30 lines method if the logic is sound?
 
-Thank you!
+<img width="1015" alt="Screenshot 2020-08-30 at 12 18 00 AM" src="https://user-images.githubusercontent.com/45381509/91641342-455c8600-ea56-11ea-80ad-2cd544ef8a5c.png">
+
+
+<img width="1101" alt="Screenshot 2020-08-30 at 12 18 27 AM" src="https://user-images.githubusercontent.com/45381509/91641354-55746580-ea56-11ea-84d0-54dc8e7f2c96.png">
+
+
 </panel>
 
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/5#issuecomment-674383799" expanded>
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/14#issuecomment-674764022" expanded>
 
-Hi, may I know is this a utf-8 encoding issue actually? Stuck over here as well and not sure what's the problem. 
+I got the same issue but for testing wise I changed from System.err to System.out. I think it might be better because we can track the errors that we are testing as well
 </panel>
 
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/5#issuecomment-674386503" expanded>
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/110#issuecomment-683312988" expanded>
 
-Oh I see, thanks a lot!
+I've tried that too but I still ran into errors. Thanks though!!
 </panel>
 
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/156#issuecomment-684888277" expanded>
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/110#issuecomment-683314040" expanded>
 
-@li-s It's under the description in peer review task in Week 4 project.
+Yup works now, thank you! Would the older version affect our iP?
 </panel>
 
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/156#issuecomment-684976599" expanded>
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-686405571" expanded>
 
-@damithc I see, thanks prof!
+Added some basic layouts! Probably would make it responsive to resizing and more styling!
+
+<img width="601" alt="Screenshot 2020-09-03 at 6 40 36 PM" src="https://user-images.githubusercontent.com/45381509/92105234-20309480-ee15-11ea-8ea9-b023ce99a1d7.png">
+<img width="601" alt="Screenshot 2020-09-03 at 6 40 53 PM" src="https://user-images.githubusercontent.com/45381509/92105244-23c41b80-ee15-11ea-8ee3-027c8b438030.png">
+
 </panel>
 
 </panel>
@@ -3598,80 +3990,6 @@ IntelliJ will direct you to the exact location when you click on the link. Sadly
 </panel>
 
 
-<panel type="info" header="### ALVIN CHEE TECK WENG `@CodingCookieRookie` (5 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: javac not recognised as internal or external command**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/20" expanded>
-
-
-'''
-![image](https://user-images.githubusercontent.com/38324769/90466473-75e21d00-e144-11ea-8820-7698ca997788.png)
-![image](https://user-images.githubusercontent.com/38324769/90466512-9a3df980-e144-11ea-9d1f-91cc0b2d6528.png)
-
-
-Hi I changed my environment variables to 11.0 jdk bin already but it still doesn't work. May I ask what's the issue?
-
-
-
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/20#issuecomment-675226392" expanded>
-
-Ohh okay it works haha thanks!!! :D
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/15#issuecomment-675228602" expanded>
-
-@Elgoh Hi May I ask what's the solution? Im facing this problem too haha
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/83#issuecomment-681310178" expanded>
-
-Hi prof just a question on the preferred tagging habit, if I have changed two tags simultaneously eg. A-OOP and A-Packaging, should we delete the old tags and retag them at the one updated commit or do we just leave the old tags where they are and write out the corresponding updates in the updated commit message?
-</panel>
-
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/83#issuecomment-682121160" expanded>
-
-Noted with thanks prof! :)
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### TAN YU TING, GERMAINE `@g-erm` (5 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Unspecified multiplicity**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/165" expanded>
-
-Is there a default value if the multiplicity isn't specified for an association in a class diagram? Or is it just no limit which is like `*`?
-</panel>
-
-<panel  header="**2. :fas-info-circle: Fast forward merge**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/61" expanded>
-
-![image](https://user-images.githubusercontent.com/66118590/91005883-90b40600-e60a-11ea-92af-933f8231a498.png)
-I believe I made a fast forward merge for branch-Level-7 instead, by accident. Is it okay to leave it like that or is there any way to revert the merge? Thanks!
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/61#issuecomment-678919913" expanded>
-
-Ok, will take note! Thanks prof!
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/159#issuecomment-686256905" expanded>
-
-Not sure if you solved it yet but I encountered the same problem and solved it by going to `Run > Edit Configurations` and changing VM options to `-Dfile.encoding=UTF-8`
-</panel>
-
-<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-686317262" expanded>
-
-Found this thread really informative and useful to get ideas!! heres my updated GUI:
-![image](https://user-images.githubusercontent.com/66118590/92086088-47c73300-edfc-11ea-8bda-adbd36fe90c8.png)
-
-</panel>
-
-</panel>
-
-
 <panel type="info" header="### MELANIE NG PEI SEE `@IlyaRin` (5 contributions)"  collapsed>
 
 
@@ -3720,6 +4038,45 @@ The same output occurs (There was a line Cannot find file .... /ACTUAL.TXT  the 
 > so i must cd twice to the previous directory to go to the main iP folder directory. Then mkdir there ah.
 
 You can also go to where your main iP folder is and create a new folder inside called data. It will appear in intellij, then right click on the new folder in intellij and create a new file (Duke.txt) from there. Hope this helps!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### Lim Jin Hao `@JinHao-L` (5 contributions)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/94#issuecomment-682445896" expanded>
+
+It might be that your tag for the levels does not point to commits in the main branch. Try checking if all the commits of the relevant tags can be found on your main branch.
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/99#issuecomment-683256251" expanded>
+
+Within a constructor, you can call other constructors of the class directly by using their corresponding signature. 
+
+So in your case, you can just use this in your no-argument constructor: `this("./data", "./data/tasks.txt");`
+
+For your current solution, I believe you will be creating 2 Duke objects when u call your no-argument constructor
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/151#issuecomment-684715811" expanded>
+
+Try running the clean build on Gradle and then run your whole project again. It could be that the class files are not updated and hence the program does not reflect your changes to Main or Duke.
+
+Let me know if it works 👍 
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-685713362" expanded>
+
+![image](https://user-images.githubusercontent.com/52820430/91983113-cd47d600-ed5d-11ea-86ce-e883478ec462.png)
+
+
+</panel>
+
+<panel  header="**5 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/171#issuecomment-687550153" expanded>
+
+If you are referring to displaying the check and cross on your GUI, you can refer to this: #159 
 </panel>
 
 </panel>
@@ -4105,41 +4462,6 @@ ok thanks! @zhengweii @qlchan24
 </panel>
 
 
-<panel type="info" header="### TERENCE HO WEI YANG `@Vielheim` (4 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Unable to configure checkstyle**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/110" expanded>
-
-Hi all, does anyone know how to set up checkstyle properly?
-I'm using the default version for checkstyle defined in build.Gradle (v8.23). I downloaded the config/checkstyle folder from the addressbook repo and when I tried to configure checkstyle, I'm have to initialise config_loc and have the following error. Wasn't really shown in the tutorial so I'm not sure how to go around this.
-
-
-<img width="1015" alt="Screenshot 2020-08-30 at 12 18 00 AM" src="https://user-images.githubusercontent.com/45381509/91641342-455c8600-ea56-11ea-80ad-2cd544ef8a5c.png">
-
-
-<img width="1101" alt="Screenshot 2020-08-30 at 12 18 27 AM" src="https://user-images.githubusercontent.com/45381509/91641354-55746580-ea56-11ea-84d0-54dc8e7f2c96.png">
-
-
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/14#issuecomment-674764022" expanded>
-
-I got the same issue but for testing wise I changed from System.err to System.out. I think it might be better because we can track the errors that we are testing as well
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/110#issuecomment-683312988" expanded>
-
-I've tried that too but I still ran into errors. Thanks though!!
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/110#issuecomment-683314040" expanded>
-
-Yup works now, thank you! Would the older version affect our iP?
-</panel>
-
-</panel>
-
-
 <panel type="info" header="### CHRISTIAN DRAKE MARTIN `@drake25122000` (4 contributions)"  collapsed>
 
 
@@ -4187,6 +4509,95 @@ Could you try printing the `dataFile` object and see what the output is?
 <panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/67#issuecomment-679218569" expanded>
 
 Sorry for the unclear suggestion previously but maybe print it right before `fos = new FileOutputStream(dataFile);` instead. Could you also show the part of your code where you call saveData?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### PHYO HAN `@Nahoyhp` (4 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Cant find Gradle Tool Bar (aka the elephant / Execute Gradle Task**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/109" expanded>
+
+Hi all, for the level "A-Gradle", I have merged the branch "add-gradle-support" into my new branch "branch-A-Gradle'.
+I followed the instructions but at the end I am confused whether or not I did successfully. 
+
+IntelliJ managed to run everything without error and generated Gradle-related files under External libraries. But I can't find the Gradle tool bar at the top. 
+
+I have tried to delete the .idea file but don't help. Anyone have suggestions on what to do?
+
+And how can I check if my "gradle installing" is successful?
+
+![Untitled](https://user-images.githubusercontent.com/54650877/91641142-10036880-ea55-11ea-8001-fd34e9341f22.png)
+
+
+
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/109#issuecomment-683312027" expanded>
+
+@tohyuting Are you using Windows? Because I can't find it on my screen.
+
+![Untitled](https://user-images.githubusercontent.com/54650877/91641515-83a67500-ea57-11ea-9dfe-b55c8ae9b7c5.png)
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/109#issuecomment-683313590" expanded>
+
+@tohyuting Thanks. It works.
+ Sorry for causing the trouble. Totally don't see it.
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/164#issuecomment-687146099" expanded>
+
+Hi @thutahw, i think you have installed it successfully.
+I encountered the same problem before and apparently the Gradle button is now on the right, (as shown in picture below)
+<img width="683" alt="Untitled" src="https://user-images.githubusercontent.com/54650877/92244595-b2a86500-eef5-11ea-9614-6bdec05ce68d.png">
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### CHUA CHEN LER `@lerxcl` (4 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: 💡 Unable to open your .jar file after implementing JavaFX + rebuilding?**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/174" expanded>
+
+<img src="https://user-images.githubusercontent.com/62177772/92301070-fa30fe80-ef92-11ea-9eb2-db7ba64f6114.png">
+
+Remember to change your mainClassName in build.gradle! 
+Chances are that if you follow the JavaFx Tutorial, you would use a "Launcher" class instead.
+Hence, if your .jar does not open, try changing from "Duke" to "Launcher".
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: Unable to display ✓ and ✘ properly in executable JAR file**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/64" expanded>
+
+Hi guys,
+The respective ✓ and ✘ shows up as an empty "?" box in the command line. (Tried using Window's CMD and WSL Bash)
+<img src="https://user-images.githubusercontent.com/62177772/91050184-deebf800-e650-11ea-8747-eae9706256a2.png">
+
+Running my ip project in IntelliJ works perfectly fine though.
+<img src="https://user-images.githubusercontent.com/62177772/91050403-2c686500-e651-11ea-81f2-c9466f843025.png">
+
+I've tried googling for solutions, such as changing all my file encoding to UTF-8. But it seems to still not work. :(
+<img src="https://user-images.githubusercontent.com/62177772/91050461-4144f880-e651-11ea-8b55-d6ba7fb14174.png">
+
+Thank you for your attention. :)
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/64#issuecomment-679457280" expanded>
+
+Thanks for the help :) 
+Turns out its the console font issue, and using Windows Terminal solves it!
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/174#issuecomment-687571080" expanded>
+
+Sorry, I realized that another user has posted a similar tip!
 </panel>
 
 </panel>
@@ -4311,40 +4722,6 @@ Do you still get the same "JavaFX runtime components are missing" error?
 > yeap sadly. only when running Duke
 
 I ran mine with launcher instead of Duke shown in the ss I sent beside the green play button. If that doesn't work I'm not really sure how to fix it 😅 
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### Lim Jin Hao `@JinHao-L` (4 contributions)"  collapsed>
-
-
-<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/94#issuecomment-682445896" expanded>
-
-It might be that your tag for the levels does not point to commits in the main branch. Try checking if all the commits of the relevant tags can be found on your main branch.
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/99#issuecomment-683256251" expanded>
-
-Within a constructor, you can call other constructors of the class directly by using their corresponding signature. 
-
-So in your case, you can just use this in your no-argument constructor: `this("./data", "./data/tasks.txt");`
-
-For your current solution, I believe you will be creating 2 Duke objects when u call your no-argument constructor
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/151#issuecomment-684715811" expanded>
-
-Try running the clean build on Gradle and then run your whole project again. It could be that the class files are not updated and hence the program does not reflect your changes to Main or Duke.
-
-Let me know if it works 👍 
-</panel>
-
-<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-685713362" expanded>
-
-![image](https://user-images.githubusercontent.com/52820430/91983113-cd47d600-ed5d-11ea-86ce-e883478ec462.png)
-
-
 </panel>
 
 </panel>
@@ -4506,6 +4883,48 @@ Thanks for your help! I have solved it by uninstalling Java 8 entirely.
 </panel>
 
 
+<panel type="info" header="### SEO YERYEON `@wireseo` (4 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: [FIXED] javafx.fxml.LoadException and errors with xmlns and xmlns:fx**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/153" expanded>
+
+Hi, whenever I try to run the Launcher, it keeps giving me this error:
+
+![image](https://user-images.githubusercontent.com/43373656/91844958-50e8c080-ec93-11ea-8f25-86f34d116a32.png)
+
+and my code in MainWindow.fxml doesn't seem to be able to compile:
+
+![image](https://user-images.githubusercontent.com/43373656/91844999-5f36dc80-ec93-11ea-9cdc-2a399c1e6aa1.png)
+
+
+Does anyone know why this is not working for me but fine for everyone else?
+
+Thank you!
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/153#issuecomment-684877202" expanded>
+
+> I faced this error too. If you took the FXML from the guide, make sure that the field `fx:controller="MainWindow"` is changed to include the package name like `fx:controller="duke.MainWindow"`.
+
+I changed the fx:controller variable but the links are still not recognized. :/
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/153#issuecomment-687030985" expanded>
+
+@kormingsoon thank you! I eventually solved it by just moving the files and directories around a bit
+</panel>
+
+<panel  header="**4 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-687033261" expanded>
+
+Not many visual upgrades, but for DaMemes. :-D
+
+![fa](https://user-images.githubusercontent.com/43373656/92223694-cc3cb300-eedb-11ea-84c4-ba37926ce8a0.PNG)
+
+</panel>
+
+</panel>
+
+
 <panel type="info" header="### LIM ZHENG WEI `@zhengweii` (3 contributions)"  collapsed>
 
 
@@ -4644,55 +5063,34 @@ I think that rounds it off! Thanks @erisjacey @sudogene @tankangliang for the ho
 </panel>
 
 
-<panel type="info" header="### KOR MING SOON `@kormingsoon` (3 contributions)"  collapsed>
+<panel type="info" header="### TEO JIA WEI `@jiaweiteo` (3 contributions)"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: Cannot run JavaFX**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/148" expanded>
+<panel  header="**1. :fas-info-circle: Did A-JavaDoc, A-CodingStandard and Level-9 on Master branch**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/68" expanded>
 
-Anyone encountered this error as well?
+Hi,
 
-Followed the steps in the github but can't seem to run JavaFX despite setting up all the stuff.
+I got carried away and did the levels of A-JavaDoc, A-CodingStandard, and Level-9 on the Master branch by accident. I committed the changes and push all 3 levels on the master branch before realizing my mistake. 
 
-Based on what I see, my MainWindow.fxml and DialogBox.fxml cant seem to be able to access my MainWindow.java and DialogBox.java
+I have then created the branches separately and checked out the branch.
 
-'''java
-String value = "Exception in Application start method
-Exception in thread "main" java.lang.RuntimeException: Exception in Application start method
-	at javafx.graphics/com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:973)
-	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:198)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: java.lang.IllegalStateException: Location is not set.
-	at javafx.fxml/javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2459)
-	at javafx.fxml/javafx.fxml.FXMLLoader.load(FXMLLoader.java:2435)
-	at duke.Main.start(Main.java:23)
-	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:919)
-	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$11(PlatformImpl.java:449)
-	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$9(PlatformImpl.java:418)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:417)
-	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
-	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
-	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:175)
-	... 1 more
-"
-'''
+Now my git history looks like this:
+![image](https://user-images.githubusercontent.com/65444547/91061313-99cec280-e65e-11ea-81a5-36a0f5714857.png)
 
-:bulb: You can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format your text
+Is there any way to revert it or can am I able to leave it as it is? Any advice will be appreciated.
+
+Thank you!
 
 </panel>
 
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/148#issuecomment-684592183" expanded>
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/68#issuecomment-679188675" expanded>
 
-Resolved it, naming issue due to Package
+Alright got it. Thank you!
 </panel>
 
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/153#issuecomment-685255561" expanded>
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/170#issuecomment-687552658" expanded>
 
-This is likely got to do with the path settings as Kang Liang, I spent a great deal of time solving it and resolved it just as how Kang Liang suggested.
- 
-Suggestion for places to check:
-1) the .getResource( <file path> ) > mine is /view/DialogBox,fxml (or /view/MainWindow.fxml for Main.java)
-2) .getResourceAsStream("/image/<filename>.png")
+Thanks for the helpful tip!
 </panel>
 
 </panel>
@@ -4965,44 +5363,6 @@ It launches fine with the images, if I type rubbish the "OOPS!!!" message comes 
 </panel>
 
 
-<panel type="info" header="### PHYO HAN `@Nahoyhp` (3 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Cant find Gradle Tool Bar (aka the elephant / Execute Gradle Task**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/109" expanded>
-
-Hi all, for the level "A-Gradle", I have merged the branch "add-gradle-support" into my new branch "branch-A-Gradle'.
-I followed the instructions but at the end I am confused whether or not I did successfully. 
-
-IntelliJ managed to run everything without error and generated Gradle-related files under External libraries. But I can't find the Gradle tool bar at the top. 
-
-I have tried to delete the .idea file but don't help. Anyone have suggestions on what to do?
-
-And how can I check if my "gradle installing" is successful?
-
-![Untitled](https://user-images.githubusercontent.com/54650877/91641142-10036880-ea55-11ea-8001-fd34e9341f22.png)
-
-
-
-
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/109#issuecomment-683312027" expanded>
-
-@tohyuting Are you using Windows? Because I can't find it on my screen.
-
-![Untitled](https://user-images.githubusercontent.com/54650877/91641515-83a67500-ea57-11ea-9dfe-b55c8ae9b7c5.png)
-
-</panel>
-
-<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/109#issuecomment-683313590" expanded>
-
-@tohyuting Thanks. It works.
- Sorry for causing the trouble. Totally don't see it.
-</panel>
-
-</panel>
-
-
 <panel type="info" header="### ALEX CHUA QUN YAO `@AlexCQY` (3 contributions)"  collapsed>
 
 
@@ -5190,6 +5550,36 @@ I think it works. Thank you very much.
 </panel>
 
 
+<panel type="info" header="### BENNETT CLEMENT `@benclmnt` (3 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: 💡 [Solved] Generating a new fat jar file caused ClassNotFoundException**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/167" expanded>
+
+After creating a jar file using shadow plugin, I tried to run it but encountered this error
+
+![image](https://user-images.githubusercontent.com/49342399/92187383-2b72d700-ee8c-11ea-87c7-3bbe6accb69e.png)
+
+The way I solved it was to change the `mainClassName` under `application` in `build.gradle`. 
+
+Assuming your main entrypoint is `src/main/java/Launcher.java`, you can change the `mainClassName` from `main.java.Launcher` to just `Launcher` and re-run the shadow task
+
+![image](https://user-images.githubusercontent.com/49342399/92187443-5ceba280-ee8c-11ea-9c51-04ba60063b38.png)
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: [iP] : Project Management**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/42" expanded>
+
+Hi prof, I am not too clear on what is included as the project management part of the individual project, and the team project. Can you clarify on this matter?
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/42#issuecomment-678120350" expanded>
+
+Thanks prof! @damithc 
+</panel>
+
+</panel>
+
+
 <panel type="info" header="### SAAD HAIDER `@halcon-blanco` (3 contributions)"  collapsed>
 
 
@@ -5208,6 +5598,124 @@ You can try something like the abstract methods for enums mentioned here. Each e
 <panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/118#issuecomment-683510561" expanded>
 
 Did you download the checkstyle xml files into your project. If you look at the [Gradle tutorial](https://se-education.org/guides/tutorials/gradle.html#running-checkstyle), you'll see a resource called [Checkstyle Tutorial](https://se-education.org/guides/tutorials/checkstyle.html). It is in that resource where it is explained the further steps you need to take
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### TAN LE YANG `@TanLeYang` (3 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: 💡 IntelliJ check for unused declarations**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/170" expanded>
+
+While working on removing unused code, I found out that we can get IntelliJ to perform an inspection of your whole project and flag out any unused variable and method declarations!
+Here's how to do it:
+1. Navigate to Analyze > Run Inspection by Name. A small popup should appear.
+2.  In the popup, search for and select "Unused declaration"
+![Screenshot (23)](https://user-images.githubusercontent.com/48142301/92258254-2011c100-ef09-11ea-97fc-64873a633918.png)
+3.  Choose the inspection scope and options (I left it as it is)
+4. The inspection results should appear like so:
+![Screenshot (24)](https://user-images.githubusercontent.com/48142301/92259279-bb0a9b00-ef09-11ea-8662-07784e38d2e5.png)
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/84#issuecomment-681841450" expanded>
+
+When you deleted the Level-5 tag, I think you did not delete it from the remote. Went to take a look at your repo and your Level-5 tag commit hash does not match the one that is shown when you did `git log`  Maybe you can try the following: 
+
+1.  `git tag -d Level-5` -  This will delete the Level-5 tag locally
+2.  `git push origin :refs/tags/Level-5` - This will delete the Level-5 tag on the remote. If that doesn't work, try:
+`git push --delete origin Level-5`
+3.  Create the Level-5 tag at the commit you want again
+4. `git push origin refs/tags/Level-5` or `git push origin Level-5` - This will push your local Level-5 tag onto the remote
+
+You can skip 1 and 3 if you are sure there's nothing wrong with your Level-5 tag locally.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-686259394" expanded>
+
+I did some basic styling and made the GUI responsive to changes in window size so the GUI window can be maximised!
+
+![Screenshot (22)](https://user-images.githubusercontent.com/48142301/92073654-d0d36f80-ede6-11ea-8a0f-5c57c7f4b2ab.png)
+
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### RITESH KUMAR `@rtshkmr` (3 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Suggestion on Handling Unintended Termination of Application💡**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/85" expanded>
+
+Hi everyone. I was looking into how to handle the case when a user accidentally terminates the java program without the proper exit command (e.g. via the "bye") keyword and I came across the idea of adding a [JVM Shutdown hook](https://www.geeksforgeeks.org/jvm-shutdown-hook-java/). This seems to be one solution to handle this situation, and I tried implementing it like so:
+![image](https://user-images.githubusercontent.com/38996397/91382174-aff5a200-e85b-11ea-9b9f-afb2d0e5e9b9.png)
+
+
+Thought this might be useful for others. Also if anyone can explain more in-depth into what's happening under-the-hood for how the ShutdownHook works (the JVM is the one that executes the code within the hook?) ... 
+
+Started this thread to point others to this and get pointed at similar concepts to understand this better. (Also, not sure if there's any better way than to use `System.exit()` for the `ExitCommand`)
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/85#issuecomment-683215179" expanded>
+
+> Is there any thing that I have to note when implementing this shutdown hook? 'cause when I try to use it, I cannot pressing ctrl + c to terminate the program any more
+
+Hi @aidoxe-123 , did you manage to make it work?  
+I didn't have to add any other code other than the screenshot on the left (with the relevant import statements magically added by IntelliJ). 
+
+
+
+
+> If you implemented your main class as suggested, I don't think you'll need to use `System.exit()` since the program will automatically terminate when it reaches the end of the `main()` function.
+
+@seowalex I'm not fully sure about this. I added in the `System.exit()` just in the meantime because prior to adding it:
+
+1. after user is done and sends the exit command to Duke, the exit greeting is displayed by the UI and `Duke.main()` is done running
+2. this shuts down the JVM since everything is done, and the hook runs, doing the necessary saving and displaying the exit greeting a second time
+So I decided to just call `System.exit()` for the `execute` method for `ExitCommand`
+
+
+
+> On a side note the hooks will not execute in the event of an unexpected termination of JVM, so its still a safer choice to save on add.
+
+@LeeEnHao Thanks for the heads up man! yes I realise now that OS related signals (SIGKILL) and other situations can prevent the hook from running, and you're right about writing onto the hard disk upon add being a safer option.
+
+
+> This is a neat trick, but ensure you are using it for the right reasons (if you are doing this because you want to save only at the shutdown, see [this comment](https://github.com/nus-cs2103-AY2021S1/forum/issues/50#issuecomment-678739306)).
+
+Thank you Prof @damithc ! This echoes @LeeEnHao 's point about writing on every add/change to the TaskList being a safer option. Now that I realise this may not be that useful a tip, should I just close this Issue?
+
+
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/172#issuecomment-687545948" expanded>
+
+Thanks @kormingsoon for such a detailed description!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### WONG JUN LONG `@junlong4321` (3 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Whats the difference between these 2 types of association lines on the UML diagram?**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/162" expanded>
+
+![image](https://user-images.githubusercontent.com/65804451/92066365-44b84c80-edd4-11ea-9e49-4f4e3602d669.png)
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/163#issuecomment-686378462" expanded>
+
+Hi Prof, just to clarify further. This means both children and fiction are in the same arraylist of the same class, and hence they "know about each other"? (Ie Bidirectional navigability)
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-687016694" expanded>
+
+![image](https://user-images.githubusercontent.com/65804451/92240359-13806f00-eeef-11ea-87e9-0ecec23ad576.png)
+
+
+
 </panel>
 
 </panel>
@@ -5303,6 +5811,30 @@ Yeap its working now, thank you very much!
 </panel>
 
 
+<panel type="info" header="### KEANE CHAN JUN YU `@keanecjy` (3 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Where to use assertions?**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/173" expanded>
+
+Having read up some online forums, I noticed that there is a divide between programmers supporting the use of assertions in parameter checking and those that are against it. That said, where are the best uses of assertions?
+</panel>
+
+<panel  header="**2. :fas-info-circle: Saving tasks to harddisk**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/50" expanded>
+
+Level 7 says:
+Save the tasks in the hard disk automatically whenever the task list changes. 
+
+Can I check if if we need to write to the hard disk whenever there is a change to the task list? I was thinking writing to the hard disk after the user inputs "bye" would be more efficient.
+</panel>
+
+<panel  header="**3 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/50#issuecomment-678740189" expanded>
+
+Alright thank you Prof! That made a lot of sense.
+</panel>
+
+</panel>
+
+
 <panel type="info" header="### UDAYAGIRI NIKHILA SAI `@Nikhilalalalala` (3 contributions)"  collapsed>
 
 
@@ -5386,6 +5918,27 @@ Okay thank you Professor
 </panel>
 
 
+<panel type="info" header="### XIA LIYI `@XIA-LIYI` (2 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Two ways to delete tags on remote in command line💡**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/81" expanded>
+
+In command line, if you want to delete tags on remote, you can try `push origin :/refs/tags/tagname`.
+
+Also, you may try an unsafe way `push origin localTageName:tagName`. This has the possibility of deleteing the whole branch. But I used this since the first method fails. I haven't found the reason why the first method does not work. Any help will be appreciated.
+</panel>
+
+<panel  header="**2. :fas-info-circle: The powershell fails to display tick and x under UTF-8 and UTF-16**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/80" expanded>
+
+I tried `chcp 65001` to display the tick and x symbol but I got `?` in powershell. Then I tried `chcp 1200` to switch to UTF-16 but it reported `Invalid Code Page`. I don't know how to fix this bug.
+
+Any help will be appreciated.
+
+Thanks!
+</panel>
+
+</panel>
+
 
 <panel type="info" header="### TOH XUAN NING JEANNE `@jeannetoh99` (2 contributions)"  collapsed>
 
@@ -5438,6 +5991,25 @@ Does anyone know how to fix this?
 > I think this is a similar issue to the one in #125
 
 IT WORKS! THANKS !!!!!👍
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### SONG QIFENG `@davidsqf` (2 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: question about cyclic dependency**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/169" expanded>
+
+![denpendency1](https://user-images.githubusercontent.com/67531024/92192175-fec4bc80-ee97-11ea-90f7-47fab92490b6.PNG)
+This example is shown in W4.2b, however, wouldn't this result in a cyclic dependency?
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/169#issuecomment-686863571" expanded>
+
+> There has been a similar discussion in issue #100, please refer to the reply by Prof
+
+thank you, I'll close this question!
 </panel>
 
 </panel>
@@ -5504,6 +6076,34 @@ After that, I was able to follow the rest of the instructions for JavaFX tutoria
 </panel>
 
 
+<panel type="info" header="### PUA XUAN MING `@xnmng` (2 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: iP Level-10 Error: Caused by: java.lang.NoSuchMethodException: Duke.<init>()**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/166" expanded>
+
+Hello does anyone know how to solve this error?
+
+followed the JavaFX tutorial but encountered this error...
+
+![image](https://user-images.githubusercontent.com/48902714/92121525-f3887700-ee2c-11ea-87ca-db1dbb63eaf6.png)
+
+</panel>
+
+<panel  header="**2. :fas-info-circle: Typo on https://se-education.org/guides/conventions/java/intermediate.html#conditionals**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/91" expanded>
+
+There seems to be an extra bracket on this "bad" example, at the end of line 2.
+
+(sorry in advance if this is the wrong place to post a typo)
+
+![image](https://user-images.githubusercontent.com/48902714/91464658-63dc4900-e8bf-11ea-8ea3-b3e5bc9ca2f7.png)
+
+edit: sorry i meant bracket
+
+</panel>
+
+</panel>
+
+
 <panel type="info" header="### DIANNE LOH WEN HUI `@dianneloh9` (2 contributions)"  collapsed>
 
 
@@ -5515,34 +6115,6 @@ For the NoSuchElementException, it might be the case that `sc.nextLine()` is cal
 <panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/66#issuecomment-679228904" expanded>
 
 For me, for the .sh (or .bat) file, I added a line that deleted the data file before running the test if the file exists initially. So that the test can run from a clean slate.
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### TEO JIA WEI `@jiaweiteo` (2 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Did A-JavaDoc, A-CodingStandard and Level-9 on Master branch**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/68" expanded>
-
-Hi,
-
-I got carried away and did the levels of A-JavaDoc, A-CodingStandard, and Level-9 on the Master branch by accident. I committed the changes and push all 3 levels on the master branch before realizing my mistake. 
-
-I have then created the branches separately and checked out the branch.
-
-Now my git history looks like this:
-![image](https://user-images.githubusercontent.com/65444547/91061313-99cec280-e65e-11ea-81a5-36a0f5714857.png)
-
-Is there any way to revert it or can am I able to leave it as it is? Any advice will be appreciated.
-
-Thank you!
-
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/68#issuecomment-679188675" expanded>
-
-Alright got it. Thank you!
 </panel>
 
 </panel>
@@ -5727,6 +6299,53 @@ OK, noted! Thank you!
 </panel>
 
 
+<panel type="info" header="### CHUA SENG YONG, EUGENE `@eugene3231` (2 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Issues getting tick and cross to appear correctly in JavaFX GUI**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/159" expanded>
+
+Remember to give sufficient details e.g.,
+* Your development environment (IntelliJ version, Java version, OS, ...)
+JavaFX 11.0.2, Gradle 6.6.1, IntelliJ IDEA 2020.2.1 (Ultimate Edition), Java 11.0.8, Windows 10
+
+
+Hi, I'm having trouble getting the tick and cross symbols to appear in my JavaFX gui. 
+I'm currently using the unicode characters in my code as seen in the first screenshot:
+
+![invalid tick](https://user-images.githubusercontent.com/47620989/91931940-67d0f680-ed17-11ea-8ea2-31696aaa0ecc.png)
+
+After some testing I realised that the only instance the symbols get output correctly is when I run the task directly from IntelliJ. 
+The second screenshot shows when I run Duke as a run configuration and it outputs the tick and crosses perfectly:
+![without gradle](https://user-images.githubusercontent.com/47620989/91931962-7c14f380-ed17-11ea-880e-e28063f22698.png)
+
+The third screenshot is when i try to run the gradle task (as you can see from the elephant symbol)  to start Duke (run task) it outputs the symbols incorrectly. 
+![as a gradle task](https://user-images.githubusercontent.com/47620989/91932028-a4045700-ed17-11ea-95e8-e77bb407ff80.png)
+
+I have viewed others' code who have successfully output the symbol in their sample GUI as seen here: #147, and they have used the same unicode in their code. My gut feeling tells me it could be some unicode character issues with gradle and possibly JavaFX, but I have no clue on how to remedy it, does anyone have any idea how to do so? 
+
+
+
+
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/159#issuecomment-686892904" expanded>
+
+
+Yup this worked for me
+
+> Not sure if you solved it yet but I encountered the same problem and solved it by going to `Run > Edit Configurations` and changing VM options to `-Dfile.encoding=UTF-8`
+
+after some digging in #95.
+
+Thanks for the replies!
+
+
+</panel>
+
+</panel>
+
+
 <panel type="info" header="### NAUMAN SAJID `@Nauman-S` (2 contributions)"  collapsed>
 
 
@@ -5895,6 +6514,30 @@ So based on what I know, generally it is safer to us immutability. I understand 
 </panel>
 
 
+<panel type="info" header="### THUTA HTUN WAI `@thutahw` (2 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Intellij not showing files after adding gradle**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/164" expanded>
+
+Hi everyone,
+
+I followed the instructions under the scenario 2 of "adding gradle to the project". However, after closing the project and reopening it, I am unable to see my files in intellij (as shown below). I have tried closing and reopening the project a few times but there is no difference. 
+
+If anyone else had a similar issue before, may I ask how you managed to resolve it? Thank you!
+
+![image](https://user-images.githubusercontent.com/66032473/92078050-35df9300-edf0-11ea-81ee-4a453c5e3347.png)
+ 
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/164#issuecomment-687561750" expanded>
+
+Thank you Prof and @Nahoyhp. I actually forgot to import the project using the build.gradle file and I think that could be a reason why my files were not accessible on the left panel. I copied my files to another folder (e.g ip2) and imported the project (pointing to the build.gradle file this time) and it works fine now. 
+
+</panel>
+
+</panel>
+
+
 <panel type="info" header="### YONG MING YANG `@yongmingyang` (2 contributions)"  collapsed>
 
 
@@ -5914,34 +6557,6 @@ This was solved after updating the gradle version from 6.2 to 6.3 as shown in th
 <panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/128#issuecomment-683620532" expanded>
 
 Hi, I ran into the same issue. I fixed this by downloading the javaFX 11 SDK and following the steps under "if you are not using Gradle". Hope it helps!
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### CHUA CHEN LER `@lerxcl` (2 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Unable to display ✓ and ✘ properly in executable JAR file**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/64" expanded>
-
-Hi guys,
-The respective ✓ and ✘ shows up as an empty "?" box in the command line. (Tried using Window's CMD and WSL Bash)
-<img src="https://user-images.githubusercontent.com/62177772/91050184-deebf800-e650-11ea-8747-eae9706256a2.png">
-
-Running my ip project in IntelliJ works perfectly fine though.
-<img src="https://user-images.githubusercontent.com/62177772/91050403-2c686500-e651-11ea-81f2-c9466f843025.png">
-
-I've tried googling for solutions, such as changing all my file encoding to UTF-8. But it seems to still not work. :(
-<img src="https://user-images.githubusercontent.com/62177772/91050461-4144f880-e651-11ea-8b55-d6ba7fb14174.png">
-
-Thank you for your attention. :)
-
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/64#issuecomment-679457280" expanded>
-
-Thanks for the help :) 
-Turns out its the console font issue, and using Windows Terminal solves it!
 </panel>
 
 </panel>
@@ -5989,22 +6604,6 @@ Thanks!
 Problem solved.
 
 The actual issue is that I can't push the detached HEAD without actually merging so I thought I pushed those commits but actually didn't, I'm a beginner to git/sourcetree so didn't know this. xD
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### BENNETT CLEMENT `@benclmnt` (2 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: [iP] : Project Management**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/42" expanded>
-
-Hi prof, I am not too clear on what is included as the project management part of the individual project, and the team project. Can you clarify on this matter?
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/42#issuecomment-678120350" expanded>
-
-Thanks prof! @damithc 
 </panel>
 
 </panel>
@@ -6123,82 +6722,6 @@ I have changed my project structure and packaging, and everything seems better n
 </panel>
 
 
-<panel type="info" header="### TAN LE YANG `@TanLeYang` (2 contributions)"  collapsed>
-
-
-<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/84#issuecomment-681841450" expanded>
-
-When you deleted the Level-5 tag, I think you did not delete it from the remote. Went to take a look at your repo and your Level-5 tag commit hash does not match the one that is shown when you did `git log`  Maybe you can try the following: 
-
-1.  `git tag -d Level-5` -  This will delete the Level-5 tag locally
-2.  `git push origin :refs/tags/Level-5` - This will delete the Level-5 tag on the remote. If that doesn't work, try:
-`git push --delete origin Level-5`
-3.  Create the Level-5 tag at the commit you want again
-4. `git push origin refs/tags/Level-5` or `git push origin Level-5` - This will push your local Level-5 tag onto the remote
-
-You can skip 1 and 3 if you are sure there's nothing wrong with your Level-5 tag locally.
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/147#issuecomment-686259394" expanded>
-
-I did some basic styling and made the GUI responsive to changes in window size so the GUI window can be maximised!
-
-![Screenshot (22)](https://user-images.githubusercontent.com/48142301/92073654-d0d36f80-ede6-11ea-8a0f-5c57c7f4b2ab.png)
-
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### RITESH KUMAR `@rtshkmr` (2 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Suggestion on Handling Unintended Termination of Application💡**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/85" expanded>
-
-Hi everyone. I was looking into how to handle the case when a user accidentally terminates the java program without the proper exit command (e.g. via the "bye") keyword and I came across the idea of adding a [JVM Shutdown hook](https://www.geeksforgeeks.org/jvm-shutdown-hook-java/). This seems to be one solution to handle this situation, and I tried implementing it like so:
-![image](https://user-images.githubusercontent.com/38996397/91382174-aff5a200-e85b-11ea-9b9f-afb2d0e5e9b9.png)
-
-
-Thought this might be useful for others. Also if anyone can explain more in-depth into what's happening under-the-hood for how the ShutdownHook works (the JVM is the one that executes the code within the hook?) ... 
-
-Started this thread to point others to this and get pointed at similar concepts to understand this better. (Also, not sure if there's any better way than to use `System.exit()` for the `ExitCommand`)
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/85#issuecomment-683215179" expanded>
-
-> Is there any thing that I have to note when implementing this shutdown hook? 'cause when I try to use it, I cannot pressing ctrl + c to terminate the program any more
-
-Hi @aidoxe-123 , did you manage to make it work?  
-I didn't have to add any other code other than the screenshot on the left (with the relevant import statements magically added by IntelliJ). 
-
-
-
-
-> If you implemented your main class as suggested, I don't think you'll need to use `System.exit()` since the program will automatically terminate when it reaches the end of the `main()` function.
-
-@seowalex I'm not fully sure about this. I added in the `System.exit()` just in the meantime because prior to adding it:
-
-1. after user is done and sends the exit command to Duke, the exit greeting is displayed by the UI and `Duke.main()` is done running
-2. this shuts down the JVM since everything is done, and the hook runs, doing the necessary saving and displaying the exit greeting a second time
-So I decided to just call `System.exit()` for the `execute` method for `ExitCommand`
-
-
-
-> On a side note the hooks will not execute in the event of an unexpected termination of JVM, so its still a safer choice to save on add.
-
-@LeeEnHao Thanks for the heads up man! yes I realise now that OS related signals (SIGKILL) and other situations can prevent the hook from running, and you're right about writing onto the hard disk upon add being a safer option.
-
-
-> This is a neat trick, but ensure you are using it for the right reasons (if you are doing this because you want to save only at the shutdown, see [this comment](https://github.com/nus-cs2103-AY2021S1/forum/issues/50#issuecomment-678739306)).
-
-Thank you Prof @damithc ! This echoes @LeeEnHao 's point about writing on every add/change to the TaskList being a safer option. Now that I realise this may not be that useful a tip, should I just close this Issue?
-
-
-</panel>
-
-</panel>
-
-
 <panel type="info" header="### JONAS NG ZUO EN `@jonasngs` (2 contributions)"  collapsed>
 
 
@@ -6214,23 +6737,6 @@ Hello, I followed all the instructions for creating a JUnit test but when i trie
 hello prof, yes i used option 1 where Intellij helps me add the main module as a dependency. However, when I went to check the module dependencies for my 'test' module i saw this. Is this supposed to be correct? Thank you!
 ![image](https://user-images.githubusercontent.com/60083167/91160643-3c894e80-e6fc-11ea-844b-4d12336b1e20.png)
 
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### WONG JUN LONG `@junlong4321` (2 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: Whats the difference between these 2 types of association lines on the UML diagram?**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/162" expanded>
-
-![image](https://user-images.githubusercontent.com/65804451/92066365-44b84c80-edd4-11ea-9e49-4f4e3602d669.png)
-
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/163#issuecomment-686378462" expanded>
-
-Hi Prof, just to clarify further. This means both children and fiction are in the same arraylist of the same class, and hence they "know about each other"? (Ie Bidirectional navigability)
 </panel>
 
 </panel>
@@ -6302,6 +6808,25 @@ on your terminal (if you have homebrew haha)
 </panel>
 
 
+<panel type="info" header="### TEO JUN HONG, KENNETH `@angrybunny123` (2 contributions)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/141#issuecomment-683863382" expanded>
+
+I had this problem too, managed to fix it by shifting the test folder into this specific directory: src/test/java 
+
+![test](https://user-images.githubusercontent.com/65008848/91739368-63f08780-ebe4-11ea-8645-f361cfaa2e1a.PNG)
+
+</panel>
+
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/170#issuecomment-687243750" expanded>
+
+Thanks for the tip! 
+</panel>
+
+</panel>
+
+
 <panel type="info" header="### TAN RUI EN, JOSHUA `@joshruien` (2 contributions)"  collapsed>
 
 
@@ -6360,20 +6885,52 @@ Maybe you can try adding an empty constructor `public Duke() {}` in the Duke cla
 </panel>
 
 
-<panel type="info" header="### KEANE CHAN JUN YU `@keanecjy` (2 contributions)"  collapsed>
+<panel type="info" header="### NGOH WEI YUE `@nweiyue` (2 contributions)"  collapsed>
 
 
-<panel  header="**1. :fas-info-circle: Saving tasks to harddisk**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/50" expanded>
+<panel  header="**1. :fas-info-circle: runtest.sh not working after importing javaFx classes**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/124" expanded>
 
-Level 7 says:
-Save the tasks in the hard disk automatically whenever the task list changes. 
+Hello, runtest.sh does not run after I added javaFx into my class files for Level-10.
+May I ask how can I solve this issue?
+Any help is much appreciated! Thanks!
 
-Can I check if if we need to write to the hard disk whenever there is a change to the task list? I was thinking writing to the hard disk after the user inputs "bye" would be more efficient.
+<img width="1222" alt="image" src="https://user-images.githubusercontent.com/65116313/91665532-dd2aa480-eb28-11ea-8345-74b4a3576f63.png">
 </panel>
 
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/50#issuecomment-678740189" expanded>
+<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/124#issuecomment-687125286" expanded>
 
-Alright thank you Prof! That made a lot of sense.
+Thank you everyone for the response. Like what @daongochieu2810, I think the problem is likely due to runtest script not linking to javafx. Since we are moving to GUI, I think I will focus my efforts on JUnit testing for now.
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### YANG YUTONG `@yyutong` (2 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Tasks on iP progress board marked as overdue and not done yet**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/175" expanded>
+
+Hi guys! I checked on the ip progress board yesterday and found that all the tasks suddenly got marked as overdue and not done yet.
+
+<img width="771" alt="B39E85B3-A611-4A1C-82AE-67F8BC3CA23B" src="https://user-images.githubusercontent.com/57136673/92301849-bd1c3a80-ef99-11ea-973a-6eefaffb08d7.png">
+
+It seems to be that the script can not pull my repo due to some extra files. However, these files are automatically downloaded when I was building Gradle.
+![Unknown](https://user-images.githubusercontent.com/57136673/92302496-34a09880-ef9f-11ea-8046-fe7f43450a9a.png)
+
+Does anyone have the same issue? Thanks a lot in advance!
+</panel>
+
+<panel  header="**2. :fas-info-circle: Cant push or pull**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/86" expanded>
+
+Hi guys! 
+I forgot to create a new branch and did the level 8 implementations as well as A-More-OOP on the master branch. I couldn't really remember the exact steps I took but apparently I must have done something wrongly. I'm currently having trouble both pushing or pulling
+
+The branches now look like this 
+<img width="599" alt="09011764-8F2E-4CF9-829C-386EBB9D962C" src="https://user-images.githubusercontent.com/57136673/91399042-d6bdd380-e86f-11ea-9fc9-5987548e868f.png">
+
+Can anyone enlighten me how to resolve the problem? Lot of thanks in advance!
+
+
 </panel>
 
 </panel>
@@ -6392,35 +6949,6 @@ I keep getting this error after adding Gradle to my project. My test classes sto
 <panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/120#issuecomment-683442552" expanded>
 
 I shifted my test classes to the test root folder. I overlooked this as it worked before I incorporated it with Gradle
-</panel>
-
-</panel>
-
-
-<panel type="info" header="### SEO YERYEON `@wireseo` (2 contributions)"  collapsed>
-
-
-<panel  header="**1. :fas-info-circle: javafx.fxml.LoadException and errors with xmlns and xmlns:fx**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/153" expanded>
-
-Hi, whenever I try to run the Launcher, it keeps giving me this error:
-
-![image](https://user-images.githubusercontent.com/43373656/91844958-50e8c080-ec93-11ea-8f25-86f34d116a32.png)
-
-and my code in MainWindow.fxml doesn't seem to be able to compile:
-
-![image](https://user-images.githubusercontent.com/43373656/91844999-5f36dc80-ec93-11ea-9cdc-2a399c1e6aa1.png)
-
-
-Does anyone know why this is not working for me but fine for everyone else?
-
-Thank you!
-</panel>
-
-<panel  header="**2 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/153#issuecomment-684877202" expanded>
-
-> I faced this error too. If you took the FXML from the guide, make sure that the field `fx:controller="MainWindow"` is changed to include the package name like `fx:controller="duke.MainWindow"`.
-
-I changed the fx:controller variable but the links are still not recognized. :/
 </panel>
 
 </panel>
@@ -6484,8 +7012,6 @@ Thanks a lot.
 </panel>
 
 
-
-
 <panel type="info" header="### TAN WEI XIN `@duckmoon99` (1 contributions)"  collapsed>
 
 
@@ -6532,7 +7058,113 @@ I also have the same problem even if i removed the doublequotes regarding the SE
 </panel>
 
 
+<panel type="info" header="### MICHAELIA TAN TONG `@Michaeliaaa` (1 contributions)"  collapsed>
 
+
+<panel  header="**1. :fas-info-circle: Able to compile and run on terminal but faced errors when running runtest.sh**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/3" expanded>
+
+**Development environment:**
+
+IntelliJ IDEA 2019.3.5 (Community Edition)
+Runtime version: 11.0.6+8-b520.66 x86_64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+macOS 10.15.5
+
+**Issue**
+
+I was able to run on my terminal without any problem, as seen in https://ibb.co/6XWdCLk. 
+However, when I tried to run the runtest.sh, there seem to be many errors in compiling.
+I am confused over this issue and would appreciate any help here!
+
+**Error message**
+
+'''java
+Michaelias-MacBook-Pro:text-ui-test mich.aelia$ /bin/bash  /Users/mich.aelia/Desktop/ip/text-ui-test/runtest.sh 
+../src/main/java/Duke.java:56: error: cannot find symbol
+        ArrayList<Task> tasks = new ArrayList<>();
+                  ^
+  symbol:   class Task
+  location: class Duke
+../src/main/java/Duke.java:67: error: cannot find symbol
+                Task.getListOfTasks(tasks);
+                ^
+  symbol:   variable Task
+  location: class Duke
+../src/main/java/Duke.java:72: error: cannot find symbol
+                    ToDos.createTask(tasks, task);
+                    ^
+  symbol:   variable ToDos
+  location: class Duke
+../src/main/java/Duke.java:74: error: cannot find symbol
+                    ToDos.invalid_input();
+                    ^
+  symbol:   variable ToDos
+  location: class Duke
+../src/main/java/Duke.java:82: error: cannot find symbol
+                    Deadlines.createTask(tasks, task, due);
+                    ^
+  symbol:   variable Deadlines
+  location: class Duke
+../src/main/java/Duke.java:84: error: cannot find symbol
+                    Deadlines.invalid_input();
+                    ^
+  symbol:   variable Deadlines
+  location: class Duke
+../src/main/java/Duke.java:90: error: cannot find symbol
+                    Events.createTask(tasks, event, scheduled);
+                    ^
+  symbol:   variable Events
+  location: class Duke
+../src/main/java/Duke.java:92: error: cannot find symbol
+                    Events.invalid_input();
+                    ^
+  symbol:   variable Events
+  location: class Duke
+../src/main/java/Duke.java:97: error: cannot find symbol
+                    Task.done(tasks, index);
+                    ^
+  symbol:   variable Task
+  location: class Duke
+../src/main/java/Duke.java:106: error: cannot find symbol
+                    Task.delete(tasks, index);
+                    ^
+  symbol:   variable Task
+  location: class Duke
+10 errors
+********** BUILD FAILURE **********
+'''
+**Link to my fork:** 
+
+https://github.com/Michaeliaaa/ip/
+
+Thanks guys!
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### KOH HAN MING `@KohHanMing` (1 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Why do the different commands for runtest.bat work?**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/39" expanded>
+
+I had a lot of problems with runtest.bat, which (thankfully!) got solved eventually. My question is why are there so many different solutions, and why do they not work for some? Referring to the solutions found in #3 #4 #7 
+
+I'm curious as to why some only need an extra path to get their .bat to run while some need complete overhauls like:
+
+dir /s /B ..\src\main\java\*.java > sources.txt
+javac  -cp ..\src -Xlint:none -d ..\bin @sources.txt
+
+which replaces
+
+javac  -cp ..\src -Xlint:none -d ..\bin ..\src\main\java\Duke.java
+
+and also what does the overhaul even mean? In the original, I roughly understand what the flags mean, but I have no clue what the overhaul is talking about.
+
+Thanks in advance! :)
+</panel>
+
+</panel>
 
 
 <panel type="info" header="### SEBASTIAN TOH SHI JIAN `@sebastiantoh` (1 contributions)"  collapsed>
@@ -6548,6 +7180,35 @@ First, try deleting all the files in `./bin/`, then running the batch file again
 
 </panel>
 
+
+<panel type="info" header="### TAN HIN KHAI, STEPHEN `@blackonyyx` (1 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: How to jUnit Test a Method inside a Class that when constructed throws a error.**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/92" expanded>
+
+Hi I would like to ask how to test such a method, for example my deadline class throws a exception in the constructor
+'''
+@Test 
+    public void testDeadlineClassAutoCorrectsBlankDateField(){
+        try{
+            Deadline deadline = new Deadline("random_desc","");
+            assertEquals(deadline.getDateby(),LocalDate.now().toString());
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+'''
+As show, i need to enclose it within a try catch method in order to even get it to function. Is there some cleaner way to do this in jUnit?
+Googling this, I saw some code examples where they did: 
+'''
+@Test(expected = Exception.class)
+'''
+But i am unable to reproduce this on my intelij
+
+Thanks
+</panel>
+
+</panel>
 
 
 <panel type="info" header="### ANG SONG YI `@SONGYI98` (1 contributions)"  collapsed>
@@ -6574,6 +7235,37 @@ I also encountered this when I ran my bat file. For me it was because I had both
 </panel>
 
 
+<panel type="info" header="### FOO GORDON `@gordonfgz` (1 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: Tag exists, but the commit does not belong to any branch on the repository**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/84" expanded>
+
+
+![image](https://user-images.githubusercontent.com/47942382/91380841-82f3c000-e858-11ea-9d4c-fb49f84f9c5f.png)
+
+Hello, Im having issues with my Level-5 tag... Basically it says that my commit does not belong to any branch on my repo. 
+
+Below is a snapshot of my sourcetree. 
+![image](https://user-images.githubusercontent.com/47942382/91380932-c0f0e400-e858-11ea-9baa-79180c43fd9f.png)
+
+Also, when i do git log Level-5, it shows that it is linked to my previous commits as shown below.
+![image](https://user-images.githubusercontent.com/47942382/91381037-fbf31780-e858-11ea-8753-63e3a9bda61f.png)
+
+When i try to push all tags on Master, 
+![image](https://user-images.githubusercontent.com/47942382/91381082-10cfab00-e859-11ea-9420-fcd40b546753.png)
+
+I get these error messages:
+![image](https://user-images.githubusercontent.com/47942382/91381124-22b14e00-e859-11ea-84f9-c1177fbaa3e1.png)
+
+I tried deleting the Level-5 tag, pushing, and re-creating the Level-5 tag at the same commit and pushing it again.
+The same error occurred. 
+
+Any help will be greatly appreciated... Thanks in advance!
+
+</panel>
+
+</panel>
+
 
 <panel type="info" header="### CHIA CHU YOU `@chuyouchia` (1 contributions)"  collapsed>
 
@@ -6586,7 +7278,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 </panel>
 
 </panel>
-
 
 
 <panel type="info" header="### GALVIN LEOW WEN YUAN `@galvinleow` (1 contributions)"  collapsed>
@@ -6691,21 +7382,98 @@ Hi Prof, can I ask a question about the format of the command that the user inpu
 </panel>
 
 
+<panel type="info" header="### TAN ZHONG HONG MARCUS `@MarcTzh` (1 contributions)"  collapsed>
 
 
-<panel type="info" header="### TEO JUN HONG, KENNETH `@angrybunny123` (1 contributions)"  collapsed>
+<panel  header="**1. :fas-info-circle: Bidirectional arrows represent navigability but how does it look like in code?**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/163" expanded>
+
+![Screenshot 2020-09-03 at 12 50 50 PM](https://user-images.githubusercontent.com/45691881/92072615-37a35980-ede4-11ea-96ff-51ed9f9d91a4.png)
+
+</panel>
+
+</panel>
 
 
-<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/141#issuecomment-683863382" expanded>
+<panel type="info" header="### CHIAM YUN QING `@chiamyunqing` (1 contributions)"  collapsed>
 
-I had this problem too, managed to fix it by shifting the test folder into this specific directory: src/test/java 
+
+<panel  header="**1. :fas-info-circle: Bi-directional Associations & Cyclic Dependency**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/100" expanded>
+
+Hi all,
 
-![test](https://user-images.githubusercontent.com/65008848/91739368-63f08780-ebe4-11ea-8645-f361cfaa2e1a.PNG)
-
+I was reading the textbook and under the section OOP Associations -> Multiplicity and there is an example regarding bi-directional association as below:
+
+_In the code below, the Foo class has a variable to hold a Bar object and vice versa i.e., each object can have an association with an object of the other type._
+'''
+class Foo {
+    Bar bar;
+    //...
+}
+
+class Bar {
+    Foo foo;
+    //...
+}
+'''
+
+I was just wondering since this code leads to cyclic dependency and considering how cyclic dependency makes it harder to test your code and thus should not be used from OOP perspective, when will bi-directional associations actually be useful or important? 
 </panel>
 
 </panel>
 
+
+<panel type="info" header="### YEOH HUI QING `@yeohhq` (1 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: System.err.print(ex) not appearing on ACTUAL.TXT**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/14" expanded>
+
+I have another issue when testing using the _runtest.sh_ file after including error messages thrown using custom exception classes for Level-5.
+
+Not sure if it is caused due to using `System.err.print(ex)`; instead of `System.out.print(ex);`, causing the error messages to not be captured in the _EXPECTED-UNIX.TXT_ and _ACTUAL.TXT_ files although I included them in my _EXPECTED.TXT_ file for testing.
+
+Hence would like to ask if it's alright to not include "expected" error messages thrown using `System.err.print(ex);` in our _EXPECTED.TXT_ file?
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### TAN CHANG RI, GABRIEL `@gabztcr` (1 contributions)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/166#issuecomment-686607868" expanded>
+
+Hi @xnmng, I had this issue also. I just commented out the **entirety** of the old code and followed the JavaFX tutorial. Only after you finish the tutorial should you figure out how to incorporate both together. Hope this works! ⛄ 
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### NEO RUI EN MAYBELLINE `@successs404` (1 contributions)"  collapsed>
+
+
+<panel  header="**1. :fas-info-circle: JavaDoc for Constructors**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/168" expanded>
+
+Hi everyone
+
+When I was typing JavaDoc comments for Constructors, I searched up examples online and decided to go with this format:
+
+    /** Constructor.
+     *
+     * @param num The index of the task to be marked as done.
+     */
+    public DoneCommand(int num) {
+        this.num = num;
+    }
+
+I have a question though. Since the constructor is also a public method, should the Javadocs comment also start with a verb?
+i.e. instead of "Constructor." its "Constructs a DoneCommand.'
+
+I also seek for a quick clarification. Are JavaDoc comments not needed for private fields and methods? 
+
+Thank you!
+</panel>
+
+</panel>
 
 
 <panel type="info" header="### YU BOWEI `@bowei-yu` (1 contributions)"  collapsed>
@@ -6719,8 +7487,6 @@ Hello! may I ask how did you unmark main as module please?
 </panel>
 
 </panel>
-
-
 
 
 <panel type="info" header="### AMELIA TAN JIN YU `@ameliatjy` (1 contributions)"  collapsed>
@@ -6743,6 +7509,17 @@ Here is my really super duper ultra simple GUI without tweaks!
 <panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/92#issuecomment-682144890" expanded>
 
 You can try using assertThrows as seen here https://howtodoinjava.com/junit5/expected-exception-example/
+</panel>
+
+</panel>
+
+
+<panel type="info" header="### NIGEL NG YONG SHENG `@vanGoghhh` (1 contributions)"  collapsed>
+
+
+<panel  header="**1 :fas-comment:**" popup-url="https://github.com/nus-cs2103-AY2021S1/forum/issues/172#issuecomment-687545702" expanded>
+
+upz leh
 </panel>
 
 </panel>
@@ -6771,10 +7548,6 @@ To add on, "compare with Clipboard" is helpful to check where the missing empty 
 </panel>
 
 </panel>
-
-
-
-
 
 
 
